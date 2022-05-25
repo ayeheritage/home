@@ -48,3 +48,92 @@ li{
 .active{
     color: green;
 }
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box{
+    background: url("../image/1.jpg") no-repeat;
+}
+.box1{
+    background: url("../image/2.jpg") no-repeat;
+}
+.box2{
+    background: url("../image/3.jpg") no-repeat;
+}
+.box3{
+    background: url("../image/4.jpg") no-repeat;
+}
+.box4{
+    background: url("../image/5.jpg") no-repeat;
+}
+.box5{
+    background: url("../image/6.jpg") no-repeat;
+}
+.box, .box1, .box2, .box3, .box4, .box5{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-size: 400px;
+    filter: grayscale(90%);
+}
+.box:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+}
+
+.box1:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+}
+.box2:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+}
+.box3:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+}
+.box4:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+}
+.box5:hover{
+    filter: grayscale(0%);
+    animation: zomm 1s ease-in-out;
+    
+}
+@keyframes zomm{
+    50%{
+        background-size: 402px;
+    }
+}
+h1{
+    color: white;
+    padding-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.boxes a{
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.boxes a:hover{
+    background-color: white;
+    color: gray;
+
+}
+
+footer{
+    margin: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
