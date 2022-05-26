@@ -10,23 +10,32 @@ header{
     flex-wrap: wrap;
     border-bottom: 1px solid white;
     padding-bottom: 10px;
+    text-align: center;
+    
 }
 .logo{
     margin-top: 30px;
-    margin-left: 15px;
-    font-size: 30px;
+    margin-left: 25px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+span{
+    font-size: 34px;
+    color: white;
 }
 .logo > p{
     color: white;
+    text-transform: uppercase;
 }
 .navbar > nav > ul {
     color: white;
     display: flex;
     margin-top: 40px;
-    margin-left: 400px;
+    margin-left: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+   
 }
 li{
     list-style: none;
@@ -43,7 +52,13 @@ li{
 .socialmedia{
     color: white;
     margin-top: 30px;
-    margin-left: 300px;
+    
+    width: 30%;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.socialmedia img{
+    width: 30px;
 }
 .active{
     color: green;
@@ -54,7 +69,7 @@ li{
     text-align: center;
 }
 .box{
-    background: url("../image/1.jpg") no-repeat;
+    background: url("../image/1.jpeg") no-repeat;
 }
 .box1{
     background: url("../image/2.jpg") no-repeat;
@@ -115,6 +130,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .boxes a{
@@ -136,4 +152,5 @@ footer{
     color: whitesmoke;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-top: 2px solid white;
 }
